@@ -1,0 +1,5 @@
+-- This script forces a player to join a specific game when executed
+
+local gameToJoinId = "6960742437"  -- Replace 6960742437 with the ID of the game you want to join
+
+game:GetService("TeleportService"):Teleport(gameToJoinId)
